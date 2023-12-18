@@ -1,0 +1,164 @@
+@import url("./assets/css/Sec1-left-sidebar.css");
+@import url("./assets/css/Sec2-navbar.css");
+@import url("./assets/css/Sec3-stream-section.css");
+@import url("./assets/css/Sec4-upcoming-section.css");
+@import url("./assets/css/Sec5-topgame-section.css");
+@import url("./assets/css/Sec6-popular-game-section.css");
+@import url("./assets/css/Sec7-right-sidebar.css");
+
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+:root{
+    --font-size-9px:9px;
+    --fontsize-12px:12px;
+    --fontsize-14px:14px;
+    --fontsize-15px:15px;
+    --fontsize-16px:16px;
+    --fontsize-18px:18px;
+    --fontsize-22px:22px;
+    --fontsize-24px:24px;
+    --fontsize-26px:26px;
+    --fontsize-28px:28px;
+    --fontsize-30px:30px;
+    --fontsize-32px:32px;
+    --fontsize-36px:36px;
+    --fontsize-42px:42px;
+    --fontsize-65px:65px;   
+}
+:root{
+    --font-weight-100:100;
+    --font-weight-200:200;
+    --font-weight-300:300;
+    --font-weight-400:400;
+    --font-weight-500:500;
+    --font-weight-600:600;
+    --font-weight-700:700;
+}
+
+:root{
+   --background-color:#060E25;
+   --font-color:#FFFFFF;
+   --left-div-bg-color:#001434;
+   --header-input-bg-color:#192B49;
+   --header-end-bg-color:#021E56;
+   --sec5-img-bg-color:#001434;
+}
+
+/* common classes */
+.border{
+    border: 1px solid yellowgreen;
+}
+/* 1.flex classes */
+.d-flex{
+    display: flex;
+}
+.fd-column{
+    flex-direction: column;
+}
+.fw-wrap{
+    flex-wrap: wrap;
+}
+.flext-align-justify{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.jc-center{
+    justify-content: center;
+}
+.jc-end{
+    justify-content: end;
+}
+.jc-space-between{
+    justify-content: space-between;
+}
+.jc-space-evenly{
+    justify-content: space-evenly;
+}
+.jc-space-around{
+    justify-content: space-around;
+}
+
+.ai-start{
+    align-items: flex-start;
+}
+.ai-center{
+    align-items: center;
+}
+.ai-end{
+    align-items: flex-end;
+}
+.ta-justify{
+    text-align: justify;
+}
+.ta-center{
+    text-align: center;
+}
+
+/* position class */
+.ps-absolute{
+    position: absolute;
+}
+.ps-relative{
+    position: relative;
+}
+.cp-pointer{
+    cursor: pointer;
+}
+
+/* height and width */
+.h-100{
+    height: 100%;
+}
+.h-auto{
+    height: auto;
+}
+.w-100{
+    width: 100%;
+}
+.w-auto{
+    width: auto;
+}
+/* display property */
+.d-block{
+    display: block;
+}
+.d-none{
+    display: none;
+}
+
+/* font-weight */
+.fw-100{
+    font-weight: 100;
+}
+.fw-200{
+    font-weight: 200;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+
+/* @media (max-width:1300px) {
+    .container{
+        padding: 10px;
+    }
+}
+@media (max-width:800px) {
+    .container{
+        padding: 13px;
+    }
+} */
